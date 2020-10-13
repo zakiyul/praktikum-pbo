@@ -7,8 +7,10 @@ public class Kucing {
     public String jenis_ekor = "panjang";
     public String makanan_kesukaan = "ikan";
 
-    public Kucing(String warna,int jumlah_kaki,String jenis_ekor_kucing){
+    public Kucing(String warna){
         this.warna = warna;
+    }
+    public Kucing(int jumlah_kaki,String jenis_ekor_kucing){
         this.jumlah_kaki = jumlah_kaki;
         jenis_ekor = jenis_ekor_kucing;
     }
